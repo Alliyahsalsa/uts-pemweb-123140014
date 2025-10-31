@@ -5,7 +5,6 @@ import ArticleCard from './components/ArticleCard';
 import Pagination from './components/Pagination';
 import './App.css';
 
-// Konfigurasi API
 const API_KEY = '843278fddec04f52b89907fc44762a08';
 const PAGE_SIZE = 10; 
 
@@ -14,14 +13,12 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   
-  // State untuk Filter & Pagination
   const [category, setCategory] = useState('technology'); 
   const [keyword, setKeyword] = useState('');
   const [fromDate, setFromDate] = useState(''); 
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
 
-  // Fungsi Fetch Data Utama
   const fetchArticles = async () => {
     setLoading(true);
     setError(null);
@@ -34,14 +31,11 @@ function App() {
     params.append('pageSize', PAGE_SIZE);
     params.append('page', page);
 
-    // --- LOGIKA VALIDASI PENTING (Perbaikan Error) ---
     if (fromDate && !keyword.trim()) {
-        // Jika hanya tanggal yang diisi tanpa keyword
         setError("Filter tanggal harus disertai dengan Kata Kunci (Keyword) karena batasan API NewsAPI.");
         setLoading(false);
-        return; // Hentikan panggilan API
+        return;
     }
-    // ------------------------------------------------
 
     if (keyword.trim()) { 
         url = `https://newsapi.org/v2/everything`;
@@ -52,7 +46,7 @@ function App() {
         }
         params.append('language', 'en'); 
         
-    } else { // Pencarian Kategori (default)
+    } else {
         url = `https://newsapi.org/v2/top-headlines`;
         params.append('category', category || 'general'); 
         params.append('country', 'us'); 
@@ -77,7 +71,6 @@ function App() {
       setArticles(data.articles);
       setTotalResults(data.totalResults);
       
-      // Pemberitahuan kustom jika tidak ada hasil
       if (data.totalResults === 0 && !data.articles.length && (keyword || category)) {
           const searchParam = keyword ? `kata kunci "${keyword}"` : `kategori "${category}"`;
           setError(`Tidak ditemukan berita untuk ${searchParam} pada tanggal ${fromDate || 'apapun'}.`);
