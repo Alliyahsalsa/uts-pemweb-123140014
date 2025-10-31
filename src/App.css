@@ -162,7 +162,7 @@ body {
 }
 
 .card-content {
-    padding: 20px; /* Padding konten lebih besar */
+    padding: 20px;
     flex-grow: 1;
 }
 
@@ -170,7 +170,7 @@ body {
     margin-top: 0;
     font-size: 1.2em;
     line-height: 1.4;
-    min-height: 2.8em; /* Memastikan tinggi judul konsisten */
+    min-height: 2.8em;
     overflow: hidden;
 }
 
@@ -187,7 +187,6 @@ body {
     line-height: 1.6;
 }
 
-/* Status & Error Messages */
 .status-message {
     text-align: center;
     padding: 30px;
@@ -207,13 +206,10 @@ body {
     background-color: #ffeeee;
 }
 
-/* ========================================
-    PAGINATION (Wajib 5)
-======================================== */
 .pagination {
     display: flex;
     justify-content: center;
-    gap: 8px; /* Jarak antar tombol */
+    gap: 8px;
     margin: 40px 0 30px;
 }
 
@@ -228,12 +224,11 @@ body {
 }
 
 .pagination button:hover:not(:disabled) {
-    background-color: #f7e0e4; /* Pink muda hover */
+    background-color: #f7e0e4;
     border-color: #a29bfe;
 }
 
 .pagination button.active {
-    /* WARNA AKTIF: Ungu */
     background-color: #a29bfe; 
     color: white;
     border-color: #a29bfe;
@@ -251,9 +246,6 @@ body {
     color: #999;
 }
 
-/* ========================================
-    RESPONSIVE DESIGN
-======================================== */
 @media (max-width: 768px) {
     .header h1 {
         font-size: 1.8em;
@@ -262,7 +254,7 @@ body {
         flex-wrap: wrap;
     }
     .nav-item {
-        flex-grow: 1; /* Agar tombol kategori memenuhi lebar */
+        flex-grow: 1;
     }
     
     .search-form {
@@ -274,7 +266,7 @@ body {
     .search-form input[type="text"], 
     .search-form input[type="date"],
     .search-form button {
-        width: 100%; /* Penuh lebar di mobile */
+        width: 100%;
         flex-grow: unset;
     }
 
