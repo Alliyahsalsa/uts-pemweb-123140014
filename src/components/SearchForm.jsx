@@ -4,7 +4,6 @@ function SearchForm({ onSearch, currentKeyword, currentDate }) {
   const [keyword, setKeyword] = useState(currentKeyword || '');
   const [date, setDate] = useState(currentDate || ''); 
   
-  // Sinkronisasi state lokal dengan props
   useEffect(() => {
     setKeyword(currentKeyword || '');
   }, [currentKeyword]);
@@ -31,7 +30,6 @@ function SearchForm({ onSearch, currentKeyword, currentDate }) {
         <form className="search-form" onSubmit={handleSubmit}>
           
           <div className="search-input-group">
-            {/* Ikon di sini jika Anda menggunakannya */}
             <input
               type="text"
               placeholder="Cari artikel berdasarkan keyword..."
@@ -42,7 +40,6 @@ function SearchForm({ onSearch, currentKeyword, currentDate }) {
           </div>
 
           <div className="date-input-group">
-            {/* Ikon di sini jika Anda menggunakannya */}
             <input
               type="date"
               value={date}
