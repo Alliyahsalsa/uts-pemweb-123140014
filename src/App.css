@@ -1,3 +1,6 @@
+/* ========================================
+    GLOBAL STYLES & RESET
+======================================== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +10,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* WARNA UTAMA: Pink Muda (soft background) */
     background-color: #fcebeb; 
     color: #333;
     min-height: 100vh;
@@ -14,10 +18,13 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 30px auto; 
     padding: 0 20px;
 }
 
+/* ========================================
+    HEADER & NAV (Wajib 1)
+======================================== */
 .header {
     background-color: #a29bfe; 
     color: white;
@@ -36,24 +43,24 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; 
 }
 
 .nav-item {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1); 
     border: 2px solid transparent;
     padding: 10px 20px;
     cursor: pointer;
     font-weight: 600;
     color: white;
     transition: all 0.3s ease;
-    border-radius: 20px;
+    border-radius: 20px; 
     text-transform: capitalize;
 }
 
 .nav-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
+    transform: translateY(-2px); 
 }
 
 .nav-item.active {
@@ -64,59 +71,96 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* ========================================
+    SEARCH FORM (Wajib 2 & 4) - Diperbaiki untuk Full Width
+======================================== */
+.search-form-container {
+    /* Tambahan wrapper untuk form jika diperlukan */
+    margin: 30px auto;
+    max-width: 1200px; /* Batasi selebar container */
+    padding: 0 20px;
+}
+
 .search-form {
     display: flex;
-    gap: 15px;
-    margin: 30px auto;
+    gap: 15px; 
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
-.search-form input, .search-form button {
-    padding: 12px 15px;
+.search-form input, .search-form button, .clear-all-btn {
+    padding: 12px 15px; 
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 8px; 
     font-size: 16px;
     transition: all 0.3s;
 }
 
 .search-form input:focus {
     outline: none;
-    border-color: #a29bfe;
+    border-color: #a29bfe; 
     box-shadow: 0 0 0 3px rgba(162, 155, 254, 0.2);
 }
 
-.search-form input[type="text"] {
-    flex-grow: 3;
-    min-width: 200px;
+/* --- PERBAIKAN FLEKSIBILITAS INPUT --- */
+/* Ganti style lama yang menggunakan class pada input */
+
+/* Wrapper untuk Input Keyword */
+.search-input-group {
+    /* Membuat keyword input mengambil porsi terbesar dari lebar */
+    flex: 5; 
+    min-width: 250px; 
 }
 
-.search-form input[type="date"] {
-    flex-grow: 1;
-    min-width: 150px;
+/* Wrapper untuk Input Date */
+.date-input-group {
+    /* Membuat date input mengambil porsi lebih kecil */
+    flex: 2; 
+    min-width: 150px; 
 }
 
-.search-form button {
+/* Memastikan input di dalam group mengambil 100% lebar groupnya */
+.search-input-group input,
+.date-input-group input {
+    width: 100%;
+}
+
+.search-form button, .clear-all-btn {
     background-color: #ffc0cb; 
     color: #333;
     font-weight: 600;
     border: none;
     cursor: pointer;
     white-space: nowrap;
+    min-width: 80px; 
 }
 
-.search-form button:hover {
+.search-form button:hover, .clear-all-btn:hover {
     background-color: #ffb6c1; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.clear-all-btn {
+    background-color: #ff6b6b;
+    color: white;
+    font-weight: 500;
+}
+.clear-all-btn:hover {
+    background-color: #e55a5a;
+}
+/* ------------------------------------- */
+
+
+/* ========================================
+    ARTICLE CARD (Wajib 3)
+======================================== */
 .articles-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
     gap: 30px;
     padding: 30px 0;
 }
@@ -130,17 +174,17 @@ body {
     text-decoration: none;
     background-color: white;
     color: #333;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .article-card:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    transform: translateY(-5px);
+    transform: translateY(-5px); 
 }
 
 .card-image-container {
-    height: 200px;
+    height: 200px; 
     overflow: hidden;
     background-color: #e0e0e0;
 }
@@ -162,7 +206,7 @@ body {
 }
 
 .card-content {
-    padding: 20px;
+    padding: 20px; 
     flex-grow: 1;
 }
 
@@ -170,7 +214,7 @@ body {
     margin-top: 0;
     font-size: 1.2em;
     line-height: 1.4;
-    min-height: 2.8em;
+    min-height: 2.8em; 
     overflow: hidden;
 }
 
@@ -187,6 +231,7 @@ body {
     line-height: 1.6;
 }
 
+/* Status & Error Messages */
 .status-message {
     text-align: center;
     padding: 30px;
@@ -204,13 +249,38 @@ body {
     border: 1px solid #dc3545;
     border-radius: 5px;
     background-color: #ffeeee;
+    line-height: 1.5;
+}
+
+/* ========================================
+    PAGINATION (Wajib 5)
+======================================== */
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination-info {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.pagination-info strong {
+  color: #a29bfe;
 }
 
 .pagination {
     display: flex;
     justify-content: center;
-    gap: 8px;
-    margin: 40px 0 30px;
+    gap: 8px; 
+    margin: 10px 0 0;
 }
 
 .pagination button {
@@ -224,7 +294,7 @@ body {
 }
 
 .pagination button:hover:not(:disabled) {
-    background-color: #f7e0e4;
+    background-color: #f7e0e4; 
     border-color: #a29bfe;
 }
 
@@ -246,15 +316,15 @@ body {
     color: #999;
 }
 
+/* ========================================
+    RESPONSIVE DESIGN
+======================================== */
 @media (max-width: 768px) {
     .header h1 {
         font-size: 1.8em;
     }
-    .navbar {
-        flex-wrap: wrap;
-    }
     .nav-item {
-        flex-grow: 1;
+        flex-grow: 1; 
     }
     
     .search-form {
@@ -263,11 +333,14 @@ body {
         padding: 15px;
     }
 
-    .search-form input[type="text"], 
-    .search-form input[type="date"],
-    .search-form button {
-        width: 100%;
-        flex-grow: unset;
+    /* Memastikan semua item form memenuhi lebar 100% di mobile */
+    .search-input-group, 
+    .date-input-group,
+    .search-form button,
+    .clear-all-btn {
+        width: 100%; 
+        min-width: unset;
+        flex: unset; /* Hapus flex-grow yang kita set di desktop */
     }
 
     .articles-list {
