@@ -1,79 +1,77 @@
-# UTS Pemrograman Web - News Portal (ReactJS)
+# UTS Pengembangan Aplikasi Web - News Portal
 
 ## Nama Repository
 
-`uts-pemweb-[NIM_ANDA]`
+**Nama Repo:** `uts-pemweb-123140014`
 
 ---
 
-## 1. Informasi Mahasiswa
+## 1. Tentang Saya
 
-| Detail | Nilai |
+| Nama Lengkap | NIM |
 | :--- | :--- |
-| **Nama Lengkap** | [NAMA LENGKAP ANDA] |
-| **Nomor Induk Mahasiswa (NIM)** | [NIM ANDA] |
-| **Mata Kuliah** | Pemrograman Web (UTS) |
+| Alliyah Salsabilla | 123140014 |
 
 ---
 
 ## 2. Deskripsi Proyek
 
-Proyek ini adalah implementasi dari portal berita minimal yang dibangun menggunakan ReactJS, sesuai dengan spesifikasi UTS. Portal ini berfungsi untuk menampilkan berita terkini dan memungkinkan pengguna melakukan pencarian serta pemfilteran artikel.
+Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pengembangan Aplikasi Web, di mana saya membuat sebuah portal berita sederhana menggunakan **ReactJS**. Saya mengambil semua data berita langsung dari **NewsAPI** dan mengolahnya murni menggunakan **React Hooks** dan **Fetch API**.
 
-### Fitur Wajib yang Diimplementasikan:
+### Fitur-Fitur Utama yang Saya Kerjakan:
 
-1.  **Navigation Bar:** Terdapat navigasi berdasarkan kategori berita (`Technology`, `Business`, `Sports`).
-2.  **Form Pencarian:** Mendukung pencarian artikel berdasarkan *keyword*.
-3.  **Filter Tanggal:** Pengguna dapat memfilter artikel berdasarkan tanggal (*date picker*). *Note: Filter tanggal hanya aktif jika disertai Keyword.*
-4.  **Tampilan Artikel:** Artikel disajikan dalam bentuk *card list* yang menampilkan *thumbnail*, judul, sumber, dan tanggal publikasi.
-5.  **Pagination:** Menggunakan komponen Pagination untuk mengontrol dan memuat artikel per halaman (10 artikel per halaman).
+* **Navigasi Kategori:** Saya membuat *navigation bar* di bagian atas agar pengguna bisa langsung memilih kategori berita populer seperti `Technology`, `Business`, dan `Sports`.
+* **Pencarian dan Filter Tanggal:** Saya menyediakan *search form* untuk mencari berita berdasarkan *keyword*. Saya juga menambahkan *date picker* untuk filter tanggal. *(Penting: Karena batasan dari NewsAPI, filter tanggal hanya bisa saya gunakan jika saya juga memasukkan kata kunci pencarian).*
+* **Tampilan Rapi:** Semua artikel ditampilkan dalam bentuk *card* yang informatif, memuat judul, sumber, tanggal, dan *thumbnail* (jika ada).
+* **Pagination:** Untuk kenyamanan pengguna, saya membatasi tampilan artikel dan menambahkan fitur Pagination, sehingga pengguna bisa berpindah antar halaman (maksimal 10 halaman).
 
-### Technical Stack:
+### Teknologi yang Saya Gunakan:
 
-* **Framework:** ReactJS (Create React App)
-* **State Management:** React Hooks (`useState`, `useEffect`)
-* **HTTP Client:** Fetch API
-* **Styling:** CSS Murni (Tema Pink Muda & Ungu)
-* **API:** NewsAPI (Kunci API: `843278fddec04f52b89907fc44762a08`)
-* **Deployment:** Vercel
+* **Framework Inti:** ReactJS (Menggunakan Create React App)
+* **Penghubung Data:** Fetch API
+* **Manajemen State:** React Hooks (`useState` dan `useEffect`)
+* **Styling:** CSS Murni
 
 ---
 
-## 3. Cara Instalasi dan Menjalankan Proyek
+## 3. Cara Instalasi dan Menjalankan Lokal
 
-Pastikan Anda memiliki Node.js (versi 16 atau lebih tinggi) dan NPM terinstal di sistem Anda.
+Jika Anda ingin mencoba aplikasi ini secara lokal (di `localhost`), pastikan Anda sudah menginstal Node.js dan NPM.
 
-### A. Instalasi Dependencies
+### A. Persiapan
 
-1.  Clone atau unduh repository ini.
-2.  Buka terminal di direktori proyek (`news-portal/`).
-3.  Instal semua dependencies yang diperlukan:
+1.  Silakan *clone* *repository* ini atau unduh kode sumbernya.
+2.  Buka terminal (Command Prompt/PowerShell/Git Bash) dan masuk ke direktori proyek.
+3.  Jalankan perintah ini untuk menginstal semua *library* yang saya gunakan:
 
     ```bash
     npm install
     ```
 
-### B. Menjalankan di Localhost
+### B. Mulai Aplikasi
 
-1.  Setelah instalasi selesai, jalankan aplikasi menggunakan perintah:
+1.  Setelah instalasi selesai, jalankan server *development* dengan perintah:
 
     ```bash
     npm start
     ```
-2.  Aplikasi akan terbuka secara otomatis di *browser* pada alamat: `http://localhost:3000`
+2.  Aplikasi akan otomatis terbuka di *browser* Anda pada `http://localhost:3000`.
 
 ---
 
-## 4. Link Deployment (Vercel)
+## 4. Link Deployment
 
-Aplikasi ini telah di-deploy menggunakan Vercel.
+Proyek ini sudah saya *deploy* agar bisa diakses secara publik:
 
-**Link Aplikasi:** [GANTI DENGAN LINK VERCEL ANDA DI SINI]
+**Link Deployment:** [GANTI DENGAN LINK VERCEL APLIKASI ANDA]
 
 ---
 
-## 5. Screenshot Aplikasi
+## 5. Tampilan Aplikasi
 
-| Tampilan Desktop | Tampilan Mobile (Responsif) |
-| :---: | :---: |
-| [GANTI DENGAN TAG GAMBAR/SCREENSHOT UTAMA APLIKASI ANDA DI DESKTOP] | [GANTI DENGAN TAG GAMBAR/SCREENSHOT TAMPILAN RESPONSIVE/MOBILE ANDA] |
+Berikut adalah beberapa *screenshot* yang menunjukkan tampilan News Portal ini.
+
+```markdown
+![Tampilan Desktop Aplikasi News Portal](https://raw.githubusercontent.com/Alliyahsalsa/uts-pemweb-123140014/main/screenshots/desktop-view.png)
+
+![Tampilan Mobile Aplikasi News Portal](https://raw.githubusercontent.com/Alliyahsalsa/uts-pemweb-123140014/main/screenshots/mobile-view.png)
