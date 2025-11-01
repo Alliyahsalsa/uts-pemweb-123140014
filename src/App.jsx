@@ -34,14 +34,12 @@ function App() {
     params.append('pageSize', PAGE_SIZE);
     params.append('page', page);
 
-    // --- LOGIKA VALIDASI PENTING (Perbaikan Error) ---
     if (fromDate && !keyword.trim()) {
         // Jika hanya tanggal yang diisi tanpa keyword
         setError("Filter tanggal harus disertai dengan Kata Kunci (Keyword) karena batasan API NewsAPI.");
         setLoading(false);
         return; // Hentikan panggilan API
     }
-    // ------------------------------------------------
 
     if (keyword.trim()) { 
         url = `https://newsapi.org/v2/everything`;
