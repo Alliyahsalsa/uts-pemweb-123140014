@@ -16,14 +16,14 @@
 
 ## 2. Deskripsi Proyek
 
-Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pengembangan Aplikasi Web, di mana saya membuat sebuah portal berita sederhana menggunakan **ReactJS**. Saya mengambil semua data berita langsung dari **NewsAPI** dan mengolahnya murni menggunakan **React Hooks** dan **Fetch API**.
+Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pengembangan Aplikasi Web, di mana saya membuat sebuah portal berita sederhana menggunakan **ReactJS**. Saya mengambil semua data berita langsung dari **NewsAPI** dan mengolahnya menggunakan **React Hooks** dan **Fetch API**.
 
 ### Fitur-Fitur Utama yang Saya Kerjakan:
 
-* **Navigasi Kategori:** Saya membuat *navigation bar* di bagian atas agar pengguna bisa langsung memilih kategori berita populer seperti `Technology`, `Business`, dan `Sports`.
-* **Pencarian dan Filter Tanggal:** Saya menyediakan *search form* untuk mencari berita berdasarkan *keyword*. Saya juga menambahkan *date picker* untuk filter tanggal. *(Penting: Karena batasan dari NewsAPI, filter tanggal hanya bisa saya gunakan jika saya juga memasukkan kata kunci pencarian).*
-* **Tampilan Rapi:** Semua artikel ditampilkan dalam bentuk *card* yang informatif, memuat judul, sumber, tanggal, dan *thumbnail* (jika ada).
-* **Pagination:** Untuk kenyamanan pengguna, saya membatasi tampilan artikel dan menambahkan fitur Pagination, sehingga pengguna bisa berpindah antar halaman (maksimal 10 halaman).
+* **Navigasi Kategori:** Saya membuat navigation bar di bagian atas agar pengguna bisa langsung memilih kategori berita populer seperti `Technology`, `Business`, dan `Sports`.
+* **Pencarian dan Filter Tanggal:** Saya menyediakan search form untuk mencari berita berdasarkan keyword. Saya juga menambahkan date picker untuk filter tanggal.
+* **Tampilan Rapi:** Semua artikel ditampilkan dalam bentuk card yang informatif, memuat judul, sumber, tanggal, dan thumbnail.
+* **Pagination:** Untuk kenyamanan pengguna, saya membatasi tampilan artikel dan menambahkan fitur Pagination, sehingga pengguna bisa berpindah antar halaman.
 
 ### Teknologi yang Saya Gunakan:
 
@@ -40,9 +40,9 @@ Jika Anda ingin mencoba aplikasi ini secara lokal (di `localhost`), pastikan And
 
 ### A. Persiapan
 
-1.  Silakan *clone* *repository* ini atau unduh kode sumbernya.
+1.  Silakan clone repository ini atau unduh kode sumbernya.
 2.  Buka terminal (Command Prompt/PowerShell/Git Bash) dan masuk ke direktori proyek.
-3.  Jalankan perintah ini untuk menginstal semua *library* yang saya gunakan:
+3.  Jalankan perintah ini untuk menginstal semua library yang saya gunakan:
 
     ```bash
     npm install
@@ -50,18 +50,18 @@ Jika Anda ingin mencoba aplikasi ini secara lokal (di `localhost`), pastikan And
 
 ### B. Mulai Aplikasi
 
-1.  Setelah instalasi selesai, jalankan server *development* dengan perintah:
+1.  Setelah instalasi selesai, jalankan server development dengan perintah:
 
     ```bash
     npm start
     ```
-2.  Aplikasi akan otomatis terbuka di *browser* Anda pada `http://localhost:3000`.
+2.  Aplikasi akan otomatis terbuka di browser Anda pada `http://localhost:3000`.
 
 ---
 
 ## 4. Link Deployment
 
-Proyek ini sudah saya *deploy* agar bisa diakses secara publik:
+Proyek ini sudah saya deploy agar bisa diakses secara publik:
 
 **Link Deployment:** [GANTI DENGAN LINK VERCEL APLIKASI ANDA]
 
@@ -69,7 +69,7 @@ Proyek ini sudah saya *deploy* agar bisa diakses secara publik:
 
 ## 5. Tampilan Aplikasi
 
-Berikut adalah beberapa *screenshot* yang menunjukkan tampilan News Portal ini.
+Berikut adalah beberapa screenshot yang menunjukkan tampilan News Portal ini.
 
 ```markdown
 ![Tampilan Desktop Aplikasi News Portal](https://raw.githubusercontent.com/Alliyahsalsa/uts-pemweb-123140014/main/screenshots/desktop-view.png)
