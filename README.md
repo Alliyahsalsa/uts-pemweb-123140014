@@ -1,4 +1,4 @@
-# UTS Pengembangan Aplikasi Web - News Portal
+# Pengembangan Aplikasi Web - News Portal (UTS)
 
 ## Nama Repository
 
@@ -71,7 +71,11 @@ Proyek ini sudah saya deploy agar bisa diakses secara publik:
 
 Berikut adalah beberapa screenshot yang menunjukkan tampilan News Portal ini.
 
-```markdown
-![Tampilan Desktop Aplikasi News Portal](https://raw.githubusercontent.com/Alliyahsalsa/uts-pemweb-123140014/main/screenshots/desktop-view.png)
+**- Tampilan navigation bar News Portal**
+<img width="1886" height="1017" alt="Screenshot 2025-11-02 014227" src="https://github.com/user-attachments/assets/b4fc8903-8191-47ca-808c-3273556134e3" />
 
-![Tampilan Mobile Aplikasi News Portal](https://raw.githubusercontent.com/Alliyahsalsa/uts-pemweb-123140014/main/screenshots/mobile-view.png)
+**- Tampilan Pencarian dan Filter Tanggal**
+<img width="1893" height="1020" alt="Screenshot 2025-11-02 014514" src="https://github.com/user-attachments/assets/0136a243-8f89-41f8-a61e-89294f2824d5" />
+
+**- Tampilan Pagination**
+<img width="1891" height="1021" alt="Screenshot 2025-11-02 014408" src="https://github.com/user-attachments/assets/25cb66c0-6c29-4042-b875-ecdad025aef8" />
