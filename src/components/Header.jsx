@@ -9,7 +9,6 @@ function Header({ categories, activeCategory, onCategoryChange }) {
         <div className="header-brand">
           <h1 className="header-title">News Portal</h1> 
         </div>
-        {/* Wajib 1: Navigation bar dengan kategori */}
         <nav className="navbar">
           {visibleCategories.map((cat) => (
             <button
