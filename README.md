@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# UTS Pemrograman Web - News Portal (ReactJS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Nama Repository
 
-## Available Scripts
+`uts-pemweb-[NIM_ANDA]`
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 1. Informasi Mahasiswa
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Detail | Nilai |
+| :--- | :--- |
+| **Nama Lengkap** | [NAMA LENGKAP ANDA] |
+| **Nomor Induk Mahasiswa (NIM)** | [NIM ANDA] |
+| **Mata Kuliah** | Pemrograman Web (UTS) |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 2. Deskripsi Proyek
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Proyek ini adalah implementasi dari portal berita minimal yang dibangun menggunakan ReactJS, sesuai dengan spesifikasi UTS. Portal ini berfungsi untuk menampilkan berita terkini dan memungkinkan pengguna melakukan pencarian serta pemfilteran artikel.
 
-### `npm run build`
+### Fitur Wajib yang Diimplementasikan:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Navigation Bar:** Terdapat navigasi berdasarkan kategori berita (`Technology`, `Business`, `Sports`).
+2.  **Form Pencarian:** Mendukung pencarian artikel berdasarkan *keyword*.
+3.  **Filter Tanggal:** Pengguna dapat memfilter artikel berdasarkan tanggal (*date picker*). *Note: Filter tanggal hanya aktif jika disertai Keyword.*
+4.  **Tampilan Artikel:** Artikel disajikan dalam bentuk *card list* yang menampilkan *thumbnail*, judul, sumber, dan tanggal publikasi.
+5.  **Pagination:** Menggunakan komponen Pagination untuk mengontrol dan memuat artikel per halaman (10 artikel per halaman).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Technical Stack:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Framework:** ReactJS (Create React App)
+* **State Management:** React Hooks (`useState`, `useEffect`)
+* **HTTP Client:** Fetch API
+* **Styling:** CSS Murni (Tema Pink Muda & Ungu)
+* **API:** NewsAPI (Kunci API: `843278fddec04f52b89907fc44762a08`)
+* **Deployment:** Vercel
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 3. Cara Instalasi dan Menjalankan Proyek
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pastikan Anda memiliki Node.js (versi 16 atau lebih tinggi) dan NPM terinstal di sistem Anda.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### A. Instalasi Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1.  Clone atau unduh repository ini.
+2.  Buka terminal di direktori proyek (`news-portal/`).
+3.  Instal semua dependencies yang diperlukan:
 
-## Learn More
+    ```bash
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### B. Menjalankan di Localhost
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1.  Setelah instalasi selesai, jalankan aplikasi menggunakan perintah:
 
-### Code Splitting
+    ```bash
+    npm start
+    ```
+2.  Aplikasi akan terbuka secara otomatis di *browser* pada alamat: `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 4. Link Deployment (Vercel)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Aplikasi ini telah di-deploy menggunakan Vercel.
 
-### Making a Progressive Web App
+**Link Aplikasi:** [GANTI DENGAN LINK VERCEL ANDA DI SINI]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 5. Screenshot Aplikasi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Tampilan Desktop | Tampilan Mobile (Responsif) |
+| :---: | :---: |
+| [GANTI DENGAN TAG GAMBAR/SCREENSHOT UTAMA APLIKASI ANDA DI DESKTOP] | [GANTI DENGAN TAG GAMBAR/SCREENSHOT TAMPILAN RESPONSIVE/MOBILE ANDA] |
