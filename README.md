@@ -10,7 +10,7 @@
 
 ## 2. Deskripsi Proyek
 
-Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pengembangan Aplikasi Web, di mana saya membuat sebuah portal berita sederhana menggunakan **ReactJS**. Saya mengambil semua data berita langsung dari **NewsAPI** dan mengolahnya menggunakan **React Hooks** dan **Fetch API**.
+Aplikasi News Portal ini adalah proyek web berbasis ReactJS yang saya kembangkan untuk menyajikan berita utama dengan tampilan yang modern dan responsif. Aplikasi ini memungkinkan pengguna menelusuri artikel berdasarkan kategori (Technology, Business, Sports), melakukan pencarian mendalam menggunakan keyword dan date picker, serta membatasi tampilan menggunakan Pagination. Untuk mengatasi masalah deployment API, saya menggunakan data statis lokal yang sudah saya pre-load dengan skema NewsAPI.
 
 ### Fitur-Fitur Utama yang Saya Kerjakan:
 
