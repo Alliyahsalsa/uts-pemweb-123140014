@@ -1,99 +1,110 @@
-// src/App.jsx (Revisi Logika)
-
 import React, { useState, useEffect } from 'react';
-// Import data JSON lokal
-import newsData from './newsData.json'; // PASTIKAN NAMA FILE JSON BENAR
+import newsData from './newsData.json'; 
+
+// Import komponen lainnya
 import Header from './components/Header';
 import SearchForm from './components/SearchForm';
 import ArticleCard from './components/ArticleCard';
 import Pagination from './components/Pagination';
 import './App.css';
 
-// Hapus API_KEY dan BASE_URL karena kita pakai data lokal
+// Variabel Statis
 const PAGE_SIZE = 10; 
-const ALL_ARTICLES = newsData.articles; // Array semua artikel statis
-const TOTAL_STATIC_RESULTS = newsData.totalResults; // Jumlah total data statis
+const ALL_ARTICLES = newsData.articles || []; 
 
 function App() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  
+  // Default ke kategori 'technology'
   const [category, setCategory] = useState('technology'); 
   const [keyword, setKeyword] = useState('');
   const [fromDate, setFromDate] = useState(''); 
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
 
-  // --- FUNGSI BARU: FILTER DATA LOKAL ---
+  // FUNGSI FILTER DATA LOKAL
   const filterLocalArticles = () => {
     setLoading(true);
     setError(null);
-
-    // Filter berdasarkan Kategori atau Keyword
-    let filtered = ALL_ARTICLES.filter(article => {
-        let matchesCategory = true;
-        let matchesKeyword = true;
-        let matchesDate = true;
-
-        const articleTitle = (article.title || '').toLowerCase();
-        const articleDescription = (article.description || '').toLowerCase();
-        
-        // 1. Filter Kategori (Jika TIDAK ada keyword, kita anggap filter kategori aktif)
-        if (!keyword.trim() && category) {
-            // Karena data statis, kita tidak tahu kategori aslinya.
-            // Kita bisa mengasumsikan data Anda adalah data "general" atau membuat mapping manual.
-            // Untuk kesederhanaan, kita abaikan filter kategori pada data statis
-            // dan hanya menggunakan filter keyword/pencarian.
-            // JIKA MAU FILTER KATEGORI, Anda harus memiliki properti "category" di setiap objek artikel.
-        }
-
-        // 2. Filter Keyword
-        if (keyword.trim()) {
-            const lowerKeyword = keyword.trim().toLowerCase();
-            matchesKeyword = articleTitle.includes(lowerKeyword) || articleDescription.includes(lowerKeyword);
-        }
-
-        // 3. Filter Tanggal
-        if (fromDate) {
-            // Ambil tanggal artikel (misal: 2025-10-31)
-            const articleDate = article.publishedAt ? article.publishedAt.substring(0, 10) : '';
-            // Pastikan artikel dipublikasikan pada atau setelah tanggal filter
-            matchesDate = articleDate >= fromDate; 
-        }
-
-        return matchesCategory && matchesKeyword && matchesDate;
-    });
     
-    // Penanganan Error Kustom
-    if (fromDate && !keyword.trim()) {
-        setError("Filter tanggal harus disertai dengan Kata Kunci (Keyword). Silakan masukkan kata kunci.");
+    let filtered = ALL_ARTICLES;
+    const lowerKeyword = keyword.trim().toLowerCase();
+
+    // 1. Validasi Tanggal Tanpa Keyword
+    if (fromDate && !lowerKeyword) {
+        setError("Filter tanggal harus disertai dengan Kata Kunci (Keyword) sesuai skema API.");
         filtered = [];
-    } else if (filtered.length === 0) {
-        setError("Tidak ditemukan berita yang cocok dengan kriteria pencarian Anda.");
+    } 
+    
+    // 2. Filter Berdasarkan Keyword dan Tanggal
+    else if (lowerKeyword || fromDate) {
+        
+        filtered = ALL_ARTICLES.filter(article => {
+            let matchesKeyword = true;
+            let matchesDate = true;
+
+            const articleTitle = (article.title || '').toLowerCase();
+            const articleDescription = (article.description || '').toLowerCase();
+            const articleDate = article.publishedAt ? article.publishedAt.substring(0, 10) : '';
+
+            // Filter Keyword
+            if (lowerKeyword) {
+                matchesKeyword = articleTitle.includes(lowerKeyword) || articleDescription.includes(lowerKeyword);
+            }
+            
+            // Filter Tanggal
+            if (fromDate) {
+                 matchesDate = articleDate >= fromDate; 
+            }
+
+            return matchesKeyword && matchesDate;
+        });
+        
+        // Penanganan jika hasil pencarian keyword 0
+        if (filtered.length === 0) {
+             setError(`Tidak ditemukan berita yang cocok dengan kata kunci "${keyword}" pada tanggal ${fromDate || 'apapun'}.`);
+        }
+        
+    } 
+    
+    // 3. Filter KATEGORI
+    else {
+        // Logika utama perbaikan kategori ada di sini:
+        const lowerCategory = category.toLowerCase();
+        
+        filtered = ALL_ARTICLES.filter(article => {
+             return article.category && article.category.toLowerCase() === lowerCategory;
+        });
+        
+        // Penanganan jika kategori tidak memiliki data
+        if (filtered.length === 0) {
+             setError(`Tidak ada artikel yang tersedia untuk kategori ${category} di data statis.`);
+        }
     }
     
-    // Pagination (Slice Data)
+    // PAGINATION
     const offset = (page - 1) * PAGE_SIZE;
     const paginatedArticles = filtered.slice(offset, offset + PAGE_SIZE);
 
     setArticles(paginatedArticles);
     setTotalResults(filtered.length);
-    setLoading(false);
+    
+    setTimeout(() => {
+        setLoading(false);
+    }, 500); 
   };
   
-  // Ganti useEffect agar memanggil fungsi filter lokal
   useEffect(() => {
-    // Memberi sedikit delay agar terasa seperti memuat dari API
-    const timer = setTimeout(() => {
-        filterLocalArticles();
-    }, 500); 
-
-    return () => clearTimeout(timer); // Cleanup
+    if (!keyword.trim()) {
+      filterLocalArticles();
+    } else {
+      filterLocalArticles();
+    }
   }, [category, keyword, fromDate, page]); 
 
-  // ... (Sisa handler handleCategoryChange, handleSearchAndFilter, dll. tetap sama) ...
-  // ... (Pastikan handler Anda mereset 'page' ke 1 saat filter berubah) ...
-
+  // Handler Category Change
   const handleCategoryChange = (newCategory) => {
     setCategory(newCategory);
     setKeyword(''); 
@@ -101,10 +112,11 @@ function App() {
     setPage(1); 
   };
   
+  // Handler Search and Filter
   const handleSearchAndFilter = ({ searchKeyword, dateFilter }) => {
     setKeyword(searchKeyword);
-    setFromDate(dateFilter);
-    setCategory(''); 
+    setFromDate(dateFilter); 
+    setCategory('');
     setPage(1); 
   };
   
@@ -115,9 +127,8 @@ function App() {
 
 
   return (
-    // ... (Kembalikan struktur return Anda seperti sebelumnya) ...
     <div className="App">
-      <Header 
+       <Header 
         categories={['Technology', 'Business', 'Sports']}
         activeCategory={!keyword ? category : ''}
         onCategoryChange={handleCategoryChange}
