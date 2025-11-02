@@ -1,11 +1,5 @@
 # Pengembangan Aplikasi Web - News Portal (UTS)
 
-## Nama Repository
-
-**Nama Repo:** `uts-pemweb-123140014`
-
----
-
 ## 1. Tentang Saya
 
 | Nama Lengkap | NIM |
@@ -63,7 +57,7 @@ Jika Anda ingin mencoba aplikasi ini secara lokal (di `localhost`), pastikan And
 
 Proyek ini sudah saya deploy agar bisa diakses secara publik:
 
-**Link Deployment:** [GANTI DENGAN LINK VERCEL APLIKASI ANDA]
+**Link Deployment:** http://uts-pemweb-123140014.vercel.app
 
 ---
 
@@ -71,11 +65,12 @@ Proyek ini sudah saya deploy agar bisa diakses secara publik:
 
 Berikut adalah beberapa screenshot yang menunjukkan tampilan News Portal ini.
 
-**- Tampilan navigation bar News Portal**
+**- Tampilan Navigation Bar News Portal**
 <img width="1886" height="1017" alt="Screenshot 2025-11-02 014227" src="https://github.com/user-attachments/assets/b4fc8903-8191-47ca-808c-3273556134e3" />
 
 **- Tampilan Pencarian dan Filter Tanggal**
 <img width="1893" height="1020" alt="Screenshot 2025-11-02 014514" src="https://github.com/user-attachments/assets/0136a243-8f89-41f8-a61e-89294f2824d5" />
 
 **- Tampilan Pagination**
-<img width="1891" height="1021" alt="Screenshot 2025-11-02 014408" src="https://github.com/user-attachments/assets/25cb66c0-6c29-4042-b875-ecdad025aef8" />
+<img width="943" height="509" alt="image" src="https://github.com/user-attachments/assets/54dfa7bf-aa51-442d-90c7-48e45cea7ba7" />
+
