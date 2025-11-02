@@ -10,7 +10,8 @@
       "url": "https://www.bbc.com/news/articles/c93063q2lzeo",
       "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/ce32/live/5b113cc0-b684-11f0-b2a1-6f537f66f9aa.jpg",
       "publishedAt": "2025-11-01T01:02:51Z",
-      "content": "Kevin PeacheyCost of living correspondent\r\nElla (left) with flatmate Maisy, says socialising is often done at the kitchen table\r\nHomes without lounges are becoming a reality for renters on tight budg… [+4314 chars]"
+      "content": "Kevin PeacheyCost of living correspondent\r\nElla (left) with flatmate Maisy, says socialising is often done at the kitchen table\r\nHomes without lounges are becoming a reality for renters on tight budg… [+4314 chars]",
+      "category": "business"
     },
     {
       "source": { "id": "ars-technica", "name": "Ars Technica" },
@@ -20,7 +21,8 @@
       "url": "https://arstechnica.com/tech-policy/2025/10/youtube-denies-ai-was-involved-with-odd-removals-of-tech-tutorials/",
       "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2216630168-1152x648.jpg",
       "publishedAt": "2025-11-01T00:32:01Z",
-      "content": null
+      "content": null,
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "GameSpot" },
@@ -30,7 +32,8 @@
       "url": "https://www.gamespot.com/articles/best-xbox-elite-series-2-wireless-controller-deal-holiday-2025/1100-6535861/",
       "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1595/15950357/4594493-eliteseries2controller.jpg",
       "publishedAt": "2025-10-31T22:37:33Z",
-      "content": "The four back paddles are located where your fingers are likely to rest naturally. Some players use all four at the same time, while others only connect one on each side. Since they are removable, yo… [+1839 chars]"
+      "content": "The four back paddles are located where your fingers are likely to rest naturally. Some players use all four at the same time, while others only connect one on each side. Since they are removable, yo… [+1839 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -40,7 +43,8 @@
       "url": "https://www.theverge.com/news/811999/gta-vi-rockstar-games-union-busting",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Jason_and_Lucia_02_With_Logos_landscape.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
       "publishedAt": "2025-10-31T22:25:59Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nA trade union says that all of the fired Rockstar employees were members of a union Discord channel.\r\nA trade union says that all of the fired Rockstar employees… [+3585 chars]"
+      "content": "A trade union says that all of the fired Rockstar employees were members of a union Discord channel.\r\nA trade union says that all of the fired Rockstar employees… [+3585 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "NASCAR" },
@@ -50,7 +54,8 @@
       "url": "https://www.nascar.com/videos/franchise/nascar-cup-practice-clips/problems-for-briscoe-no-19-has-tire-go-down-as-practice-begins-at-phoenix/",
       "urlToImage": "https://www.nascar.com/wp-content/uploads/sites/7/2025/10/31/ncs-briscoe-tire-phoenix-recap.png",
       "publishedAt": "2025-10-31T22:00:44Z",
-      "content": null
+      "content": null,
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "9to5Mac" },
@@ -60,7 +65,8 @@
       "url": "https://9to5mac.com/2025/10/31/my-top-apple-music-upgrade-in-ios-26-has-a-hidden-feature-i-love/",
       "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/apple-music-app-icon-ios-26.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
       "publishedAt": "2025-10-31T20:33:00Z",
-      "content": "Apple Music in iOS 26 is packed with new features, and my favorite of the bunch is pinned music. But much to my surprise, I just discovered that music pins have a hidden feature that makes them even … [+1550 chars]"
+      "content": "Apple Music in iOS 26 is packed with new features, and my favorite of the bunch is pinned music. But much to my surprise, I just discovered that music pins have a hidden feature that makes them even … [+1550 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": "techcrunch", "name": "TechCrunch" },
@@ -70,7 +76,8 @@
       "url": "https://techcrunch.com/2025/10/31/bluesky-hits-40-million-users-introduces-dislikes-beta/",
       "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/01/bluesky-GettyImages-2185142051.jpg?resize=1200,800",
       "publishedAt": "2025-10-31T20:14:06Z",
-      "content": "Social network Bluesky, which on Friday announced a new milestone of 40 million users, will soon start testing “dislikes” as a way to improve personalization on its main Discover feed and others.\r\nTh… [+3377 chars]"
+      "content": "Social network Bluesky, which on Friday announced a new milestone of 40 million users, will soon start testing “dislikes” as a way to improve personalization on its main Discover feed and others.\r\nTh… [+3377 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "9to5google.com" },
@@ -80,7 +87,8 @@
       "url": "http://9to5google.com/2025/10/31/gemini-google-home-how-to-sign-up/",
       "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/04/Light-controls-Nest-Hub-2nd-gen-v2.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
       "publishedAt": "2025-10-31T19:53:57Z",
-      "content": "Google Assistant is officially being shown the door, and Gemini is sneaking in through the back. As early access opens for users, adding Gemini to Google Home requires signing up here’s how.\r\nGoogle’… [+2014 chars]"
+      "content": "Google Assistant is officially being shown the door, and Gemini is sneaking in through the back. As early access opens for users, adding Gemini to Google Home requires signing up here’s how.\r\nGoogle’… [+2014 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "PCMag.com" },
@@ -90,7 +98,8 @@
       "url": "https://www.pcmag.com/news/google-pulls-the-plug-on-older-nest-thermostats",
       "urlToImage": "https://i.pcmag.com/imagery/articles/019hsPI75cL32i29tDwIbN3-1.fit_lim.size_1200x630.v1761937740.jpg",
       "publishedAt": "2025-10-31T19:13:09Z",
-      "content": null
+      "content": null,
+      "category": "technology"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -100,7 +109,8 @@
       "url": "https://www.theverge.com/news/811795/microsoft-windows-11-bluetooth-le-shared-audio-headsets",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK109_WINDOWS_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "publishedAt": "2025-10-31T18:32:30Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe Bluetooth LE-based feature will allow testers to broadcast audio across wireless headphones, speakers, and hearing aids.\r\nThe Bluetooth LE-based feature will… [+3016 chars]"
+      "content": "The Bluetooth LE-based feature will allow testers to broadcast audio across wireless headphones, speakers, and hearing aids.\r\nThe Bluetooth LE-based feature will… [+3016 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -110,7 +120,8 @@
       "url": "https://www.theverge.com/tech/811598/bose-headphones-earbuds-xbox-wireless-controller-deal-sale",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Bose-QuietComfort-Earbuds-deal.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "publishedAt": "2025-10-31T18:02:46Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nWe also found deals on a Lego Spider-Man set and the Verge-favorite Xbox Wireless Controller.\r\nWe also found deals on a Lego Spider-Man set and the Verge-favorit… [+5220 chars]"
+      "content": "We also found deals on a Lego Spider-Man set and the Verge-favorite Xbox Wireless Controller.\r\nWe also found deals on a Lego Spider-Man set and the Verge-favorit… [+5220 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": "mashable", "name": "Mashable" },
@@ -120,7 +131,8 @@
       "url": "https://mashable.com/article/openai-sora-pay-make-more-ai-videos",
       "urlToImage": "https://helios-i.mashable.com/imagery/articles/045zpvGGvBS3S64Y3meWLm2/hero-image.fill.size_1200x675.v1761931635.jpg",
       "publishedAt": "2025-10-31T17:56:14Z",
-      "content": null
+      "content": null,
+      "category": "technology"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -130,7 +142,8 @@
       "url": "https://www.theverge.com/news/811602/adobe-max-2025-sneaks-projects",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Adobe-Project-Frame-Forward.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "publishedAt": "2025-10-31T17:31:03Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nHere are the coolest developmental features that Adobe showcased at Max.\r\nHere are the coolest developmental features that Adobe showcased at Max.\r\nby\r\nJess Weat… [+4736 chars]"
+      "content": "Here are the coolest developmental features that Adobe showcased at Max.\r\nHere are the coolest developmental features that Adobe showcased at Max.\r\nby\r\nJess Weat… [+4736 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Rock Paper Shotgun" },
@@ -140,7 +153,8 @@
       "url": "https://www.rockpapershotgun.com/the-outer-worlds-2s-faction-writing-falls-short-of-fallout-new-vegas-and-how-it-handles-the-powerful-is-key",
       "urlToImage": "https://assetsio.gnwcdn.com/outer-worlds-2-people-in-power-01.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
       "publishedAt": "2025-10-31T17:27:42Z",
-      "content": "Warning: Spoilers for Fallout: New Vegas and The Outer Worlds 2 lie ahead.\r\nFallout: New Vegas has been an elephant in the room when it comes to my experience playing The Outer Worlds 2. Game directo… [+7841 chars]"
+      "content": "Warning: Spoilers for Fallout: New Vegas and The Outer Worlds 2 lie ahead.\r\nFallout: New Vegas has been an elephant in the room when it comes to my experience playing The Outer Worlds 2. Game directo… [+7841 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Eurogamer.net" },
@@ -150,7 +164,8 @@
       "url": "https://www.eurogamer.net/the-seance-of-blake-manor-is-shaping-up-to-be-one-of-my-favourite-games-this-year-and-a-brilliant-halloween-treat-for-detective-fans",
       "urlToImage": "https://assetsio.gnwcdn.com/blake-manor-header.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
       "publishedAt": "2025-10-31T17:08:12Z",
-      "content": "Turnips! Everywhere! As far as the eye can see! Well, not quite, but The Séance of Blake Manor certainly has a lot of them. This might seem like a strange place to start when talking about developer … [+5560 chars]"
+      "content": "Turnips! Everywhere! As far as the eye can see! Well, not quite, but The Séance of Blake Manor certainly has a lot of them. This might seem like a strange place to start when talking about developer … [+5560 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "9to5Mac" },
@@ -160,7 +175,8 @@
       "url": "https://9to5mac.com/2025/10/31/rumor-iphone-18-pro-to-come-in-three-all-new-bold-colors/",
       "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/iphone-18-pro-color-mockup.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
       "publishedAt": "2025-10-31T16:54:56Z",
-      "content": "Unlike any Pro iPhone before it, the iPhone 17 Pro is available in a bright cosmic orange color. This trend of bold colors might continue with the iPhone 18 Pro lineup next year.\r\nA new report from W… [+1702 chars]"
+      "content": "Unlike any Pro iPhone before it, the iPhone 17 Pro is available in a bright cosmic orange color. This trend of bold colors might continue with the iPhone 18 Pro lineup next year.\r\nA new report from W… [+1702 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Techpowerup.com" },
@@ -170,7 +186,8 @@
       "url": "https://www.techpowerup.com/342481/amd-clarifies-maintenance-mode-for-radeon-rx-5000-6000-series-first-day-game-support-remains",
       "urlToImage": "https://www.techpowerup.com/img/6VeZ5MHLt9k35XV7.jpg",
       "publishedAt": "2025-10-31T16:43:57Z",
-      "content": "dgianstefani\"as required by market needs\"Seems concrete.Meanwhile the older RTX 2000 Turing cards are still in full support.\r\nAbout as \"concrete\" as Nvidia supposedly, totally making active optimizat… [+2993 chars]"
+      "content": "dgianstefani\"as required by market needs\"Seems concrete.Meanwhile the older RTX 2000 Turing cards are still in full support.\r\nAbout as \"concrete\" as Nvidia supposedly, totally making active optimizat… [+2993 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Nintendo Life" },
@@ -180,7 +197,8 @@
       "url": "https://www.nintendolife.com/news/2025/10/nintendo-wins-lawsuit-against-pirate-streamer-who-taunted-company-online",
       "urlToImage": null,
       "publishedAt": "2025-10-31T16:30:00Z",
-      "content": "{\"en\":{\"access_disabled\":\"Internet access has been disabled on this device\",\"code\":\"Code\",\"custom_block_list\":\"it is on a custom block list\",\"email\":\"Email\",\"file_ext_blocked\":\"the file extension is … [+6847 chars]"
+      "content": "{\"en\":{\"access_disabled\":\"Internet access has been disabled on this device\",\"code\":\"Code\",\"custom_block_list\":\"it is on a custom block list\",\"email\":\"Email\",\"file_ext_blocked\":\"the file extension is … [+6847 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Pokemon.com" },
@@ -190,7 +208,8 @@
       "url": "https://www.pokemon.com/us/pokemon-news/get-suicune-reshiram-and-genesect-promo-cards-at-participating-retailers",
       "urlToImage": "https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/_tiles/me/me02/promo/me02-promo-169-en.png",
       "publishedAt": "2025-10-31T16:06:20Z",
-      "content": "Celebrate the launch of the latest Pokémon Trading Card Game expansion, Mega Evolution—Phantasmal Flames, with a trio of promo cards featuring Suicune, Reshiram, and Genesect. Starting November 14, 2… [+867 chars]"
+      "content": "Celebrate the launch of the latest Pokémon Trading Card Game expansion, Mega Evolution—Phantasmal Flames, with a trio of promo cards featuring Suicune, Reshiram, and Genesect. Starting November 14, 2… [+867 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -200,7 +219,8 @@
       "url": "https://www.theverge.com/tech/811251/best-nintendo-switch-2-game-mario-zelda-deal-sale",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Donkey-Kong-Bananza-2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "publishedAt": "2025-10-31T16:05:00Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nGames from the Legend of Zelda, Mario Kart, and MarioParty series are up to $10 off.\r\nGames from the Legend of Zelda, Mario Kart, and MarioParty series are up to… [+2517 chars]"
+      "content": "Games from the Legend of Zelda, Mario Kart, and MarioParty series are up to $10 off.\r\nGames from the Legend of Zelda, Mario Kart, and MarioParty series are up to… [+2517 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": "nbc-news", "name": "NBC News" },
@@ -210,7 +230,8 @@
       "url": "https://www.nbcnews.com/tech/tech-news/ai-browsers-comet-openai-hacked-atlas-chatgpt-rcna235980",
       "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251031-ai-final-illo-gk-aeaaa2.jpg",
       "publishedAt": "2025-10-31T16:02:17Z",
-      "content": "AI-infused web browsers are here and theyre one of the hottest products in Silicon Valley. But theres a catch: Experts and the developers of the products warn that the browsers are vulnerable to a ty… [+8466 chars]"
+      "content": "AI-infused web browsers are here and theyre one of the hottest products in Silicon Valley. But theres a catch: Experts and the developers of the products warn that the browsers are vulnerable to a ty… [+8466 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "MacRumors" },
@@ -220,7 +241,8 @@
       "url": "https://www.macrumors.com/2025/10/31/iphone-fold-release-pricing-features-foldable/",
       "urlToImage": "https://images.macrumors.com/t/utojh2KSAyPpmL2zSSHd0_hnVQQ=/2500x/article-new/2025/08/Apple-Foldable-Thumb.jpg",
       "publishedAt": "2025-10-31T15:52:58Z",
-      "content": "Apple is expected to launch a new foldable iPhone next year, based on multiple rumors and credible sources. The long-awaited device has been rumored for years now, but signs increasingly suggest that… [+5912 chars]"
+      "content": "Apple is expected to launch a new foldable iPhone next year, based on multiple rumors and credible sources. The long-awaited device has been rumored for years now, but signs increasingly suggest that… [+5912 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Eurogamer.net" },
@@ -230,7 +252,8 @@
       "url": "https://www.eurogamer.net/at-last-nintendo-is-officially-letting-you-buy-its-music-on-vinyl-outside-japan",
       "urlToImage": "https://assetsio.gnwcdn.com/Zelda-OST_z3bmIuu.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
       "publishedAt": "2025-10-31T15:14:42Z",
-      "content": "Today is the one-year anniversary of Nintendo Music, the well-received app for smart devices that gives you access to some of the most notable OSTs from the publisher's history. At launch, the app pr… [+4384 chars]"
+      "content": "Today is the one-year anniversary of Nintendo Music, the well-received app for smart devices that gives you access to some of the most notable OSTs from the publisher's history. At launch, the app pr… [+4384 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "9to5Mac" },
@@ -240,7 +263,8 @@
       "url": "https://9to5mac.com/2025/10/31/next-years-airpods-lineup-could-be-apples-biggest-ever/",
       "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/airpods-pro-3-2.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
       "publishedAt": "2025-10-31T15:10:00Z",
-      "content": "Apple just launched new AirPods Pro 3, but yet another AirPods model is rumored to arrive next year, expanding the lineup to be bigger than ever.\r\nIf youve followed Apple for long, you know that the … [+1750 chars]"
+      "content": "Apple just launched new AirPods Pro 3, but yet another AirPods model is rumored to arrive next year, expanding the lineup to be bigger than ever.\r\nIf youve followed Apple for long, you know that the … [+1750 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": "cnn", "name": "CNN" },
@@ -250,7 +274,8 @@
       "url": "https://www.cnn.com/cnn-underscored/deals/best-buy-monster-deals-2025-10-31",
       "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/best-buy-monster-deals-tv.jpg?c=16x9&q=w_800,c_fill",
       "publishedAt": "2025-10-31T15:00:00Z",
-      "content": "Black Friday is less than a month away. Scary, right? But dont be frightened by how fast the holiday shopping season is approaching. Im here to cut through the noise and separate the great deals from… [+6093 chars]"
+      "content": "Black Friday is less than a month away. Scary, right? But dont be frightened by how fast the holiday shopping season is approaching. Im here to cut through the noise and separate the great deals from… [+6093 chars]",
+      "category": "business"
     },
     {
       "source": { "id": null, "name": "Eurogamer.net" },
@@ -260,7 +285,8 @@
       "url": "https://www.eurogamer.net/what-will-microsoft-do-about-the-trump-administrations-provocative-use-of-the-halo-ip-what-i-wouldnt-do-is-anything-public-says-former-microsoft-attorney",
       "urlToImage": "https://assetsio.gnwcdn.com/Halo-The-Master-Chief-Collection.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
       "publishedAt": "2025-10-31T14:13:05Z",
-      "content": "Don McGowan is an attorney who knows what he's talking about when it comes to understanding what Microsoft might do following the Trump administration's provocative use of the Halo IP on social media… [+4339 chars]"
+      "content": "Don McGowan is an attorney who knows what he's talking about when it comes to understanding what Microsoft might do following the Trump administration's provocative use of the Halo IP on social media… [+4339 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Jalopnik" },
@@ -270,7 +296,8 @@
       "url": "https://www.jalopnik.com/2012569/2025-rolls-royce-phantom-mansory-819980-dollars-craigslist-nice-price/",
       "urlToImage": "https://www.jalopnik.com/img/gallery/at-819980-is-this-2025-rolls-royce-phantom-mansory-a-trick-or-a-treat/l-intro-1761857748.jpg",
       "publishedAt": "2025-10-31T12:25:00Z",
-      "content": "This isn't your run-of-the-mill Phantom VIII. Mansory, the Bavaria-based design house, has had a hand in modifying the car. Now, many of Mansory's modded cars and trucks are pretty frightening, some … [+1230 chars]"
+      "content": "This isn't your run-of-the-mill Phantom VIII. Mansory, the Bavaria-based design house, has had a hand in modifying the car. Now, many of Mansory's modded cars and trucks are pretty frightening, some … [+1230 chars]",
+      "category": "business"
     },
     {
       "source": { "id": null, "name": "Eurogamer.net" },
@@ -280,7 +307,8 @@
       "url": "https://www.eurogamer.net/arc-raiders-passes-250000-concurrent-players-on-steam-alone-breaking-records-for-the-extraction-shooter-genre",
       "urlToImage": "https://assetsio.gnwcdn.com/arc-raiders-headline.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
       "publishedAt": "2025-10-31T12:12:38Z",
-      "content": "Arc Raiders has surpassed a peak concurrent player count of 250,000 on Steam, only a day after its release. This makes it the most popular Steam release for a PvP extraction shooter to date.\r\nThe gam… [+1367 chars]"
+      "content": "Arc Raiders has surpassed a peak concurrent player count of 250,000 on Steam, only a day after its release. This makes it the most popular Steam release for a PvP extraction shooter to date.\r\nThe gam… [+1367 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Nature.com" },
@@ -290,7 +318,8 @@
       "url": "https://www.nature.com/articles/d41586-025-03542-2",
       "urlToImage": "https://media.nature.com/lw1200/magazine-assets/d41586-025-03542-2/d41586-025-03542-2_51628252.jpg",
       "publishedAt": "2025-10-31T11:31:06Z",
-      "content": "Llama 3 is a large language model owned by tech firm Meta.Credit: MauriceNorbert/Alamy\r\nArtificial intelligence (AI) chatbots are worse at retrieving accurate information and reasoning when trained o… [+2997 chars]"
+      "content": "Llama 3 is a large language model owned by tech firm Meta.Credit: MauriceNorbert/Alamy\r\nArtificial intelligence (AI) chatbots are worse at retrieving accurate information and reasoning when trained o… [+2997 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Videogamer.com" },
@@ -300,7 +329,8 @@
       "url": "https://www.videogamer.com/news/final-fantasy-7-remake-director-deeply-inspired-by-clair-obscur-expedition-33-director/",
       "urlToImage": "https://www.videogamer.com/wp-content/uploads/Untitled-design-2025-10-31T172335.111.jpg",
       "publishedAt": "2025-10-31T10:34:44Z",
-      "content": "You can trust VideoGamer. Our team of gaming experts spend hours testing and reviewing the latest games, to ensure you're reading the most comprehensive guide possible. Rest assured, all imagery and … [+2586 chars]"
+      "content": "You can trust VideoGamer. Our team of gaming experts spend hours testing and reviewing the latest games, to ensure you're reading the most comprehensive guide possible. Rest assured, all imagery and … [+2586 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Nintendo Life" },
@@ -310,7 +340,8 @@
       "url": "https://www.nintendolife.com/news/2025/10/psa-dont-expect-animal-crossing-new-horizons-nintendo-switch-2-edition-to-include-the-dlc",
       "urlToImage": "https://images.nintendolife.com/2d9917ff9568b/large.jpg",
       "publishedAt": "2025-10-31T06:00:00Z",
-      "content": "@BrintaPap \"I mean increased/performance when you buy better hardware. No game dev/publisher ever did this on PC.\"\r\nOké. I'll open Steam. I enter the words \"Remastered\" in the search box. AND SEE HER… [+2167 chars]"
+      "content": "@BrintaPap \"I mean increased/performance when you buy better hardware. No game dev/publisher ever did this on PC.\"\r\nOké. I'll open Steam. I enter the words \"Remastered\" in the search box. AND SEE HER… [+2167 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Kotaku" },
@@ -320,7 +351,8 @@
       "url": "https://kotaku.com/hp-monster-laptop-64-gb-ram-2-tb-ssd-hits-mid-range-pricing-after-amazons-massive-2300-price-cut-2000640236",
       "urlToImage": "https://kotaku.com/app/uploads/2025/10/hp-laptop-17-3.jpg",
       "publishedAt": "2025-10-31T00:33:01Z",
-      "content": "Laptops rarely drop more than $2000, especially ones packing the kind of specs that make power users drool. The Hp 17 Business Laptop just crashed to $999 on Amazon, down from its typical $3,299 pric… [+2874 chars]"
+      "content": "Laptops rarely drop more than $2000, especially ones packing the kind of specs that make power users drool. The Hp 17 Business Laptop just crashed to $999 on Amazon, down from its typical $3,299 pric… [+2874 chars]",
+      "category": "business"
     },
     {
       "source": { "id": null, "name": "Nintendo.com" },
@@ -330,7 +362,8 @@
       "url": "https://www.nintendo.com/us/whatsnew/its-the-1-year-anniversary-of-nintendo-music/",
       "urlToImage": "https://assets.nintendo.com/image/upload/v1643742733/ncom/global/social-share.jpg",
       "publishedAt": "2025-10-30T22:31:23Z",
-      "content": "Its hard to believe, but its been an entire year since the Nintendo Music app* launched. The exclusive smart-device app for Nintendo Switch Online members** lets users stream or download Nintendo sou… [+1158 chars]"
+      "content": "Its hard to believe, but its been an entire year since the Nintendo Music app* launched. The exclusive smart-device app for Nintendo Switch Online members** lets users stream or download Nintendo sou… [+1158 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -340,7 +373,8 @@
       "url": "https://www.theverge.com/news/810735/tim-cook-ai-apple-intelligence-integrations",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/DSC01507.webp?quality=90&strip=all&crop=0%2C11.017233631299%2C100%2C77.965532737402&w=1200",
       "publishedAt": "2025-10-30T21:32:44Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nApple is planning to integrate with more companies over time, according to Cook.\r\nApple is planning to integrate with more companies over time, according to Cook… [+3529 chars]"
+      "content": "Apple is planning to integrate with more companies over time, according to Cook.\r\nApple is planning to integrate with more companies over time, according to Cook… [+3529 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "GameSpot" },
@@ -350,7 +384,8 @@
       "url": "https://www.gamespot.com/gallery/everything-new-in-the-repo-monster-update-full-patch-notes/2900-7198/",
       "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1814/18142392/4594091-repo1.jpg",
       "publishedAt": "2025-10-30T21:24:31Z",
-      "content": null
+      "content": null,
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Pokemon GO Hub" },
@@ -360,7 +395,8 @@
       "url": "https://pokemongohub.net/post/news/ranked-battle-adjustments-and-mega-stone-rewards-coming-to-pokemon-legends-z-a/",
       "urlToImage": "https://pokemongohub.net/wp-content/uploads/2025/10/snp6webkffef1.jpeg",
       "publishedAt": "2025-10-30T21:15:46Z",
-      "content": "The Pokémon Company has shared a new update announcing several upcoming balance adjustments and reward changes to Pokémon Legends: Z-As Ranked Battle system. These changes are aimed at improving play… [+1761 chars]"
+      "content": "The Pokémon Company has shared a new update announcing several upcoming balance adjustments and reward changes to Pokémon Legends: Z-As Ranked Battle system. These changes are aimed at improving play… [+1761 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Push Square" },
@@ -370,7 +406,8 @@
       "url": "https://www.pushsquare.com/reviews/ps5/mortal-kombat-legacy-kollection",
       "urlToImage": "https://images.pushsquare.com/reviews/ps5/mortal-kombat-legacy-kollection/1280x720.jpg",
       "publishedAt": "2025-10-30T21:04:06Z",
-      "content": "Not every game in the Mortal Kombat Legacy Kollection is a klassic, but dev Digital Eclipses ability to kontextualise kontent makes this a kompilation well worth owning.\r\nIf youve played the excellen… [+4554 chars]"
+      "content": "Not every game in the Mortal Kombat Legacy Kollection is a klassic, but dev Digital Eclipses ability to kontextualise kontent makes this a kompilation well worth owning.\r\nIf youve played the excellen… [+4554 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": "ars-technica", "name": "Ars Technica" },
@@ -380,7 +417,8 @@
       "url": "https://arstechnica.com/gadgets/2025/10/canvas-new-affinity-app-is-free-to-use-but-locks-ai-features-behind-a-subscription/1761852764",
       "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/Screenshot-2025-10-30-at-3.30.39-PM-1152x648-1761852764.jpeg",
       "publishedAt": "2025-10-30T20:05:50Z",
-      "content": null
+      "content": null,
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Nintendo Life" },
@@ -390,17 +428,19 @@
       "url": "https://www.nintendolife.com/news/2025/10/dragon-quest-i-and-ii-hd-2d-remake-gets-day-one-update-here-are-the-full-patch-notes",
       "urlToImage": "https://images.nintendolife.com/c9b2ee915f944/large.jpg",
       "publishedAt": "2025-10-30T19:31:44Z",
-      "content": "Image: Square Enix\r\nSquare Enix has dropped a day one patch for Dragon Quest I &amp; II HD-2D Remake, which is out now on Switch and Switch 2.\r\nThe patch is a pretty small one, admittedly, but it doe… [+2251 chars]"
+      "content": "Image: Square Enix\r\nSquare Enix has dropped a day one patch for Dragon Quest I &amp; II HD-2D Remake, which is out now on Switch and Switch 2.\r\nThe patch is a pretty small one, admittedly, but it doe… [+2251 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Gear Patrol" },
       "author": "Jack Seemer",
       "title": "I Didn’t Expect to Like Nike’s Wildly Futuristic Robotic Shoes. Then I Tried Them - Gear Patrol",
       "description": "Unlike a super shoe, Project Amplify isn't about making people quicker. But I'll be damned if it isn't fun to run fast.",
-      "url": "https://www.gearpatrol.com/outdoors/nike-project-amplify-robotic-shoes-testing/",
+      "url": "https://www.gearpatatrol.com/outdoors/nike-project-amplify-robotic-shoes-testing/",
       "urlToImage": "https://www.gearpatrol.com/wp-content/uploads/sites/2/2025/10/nike-project-amplify-robotic-shoes-testing/19e848.webp",
       "publishedAt": "2025-10-30T19:29:35Z",
-      "content": "Technology is like water. You can try to stop it. You might successfully stall it. But sooner or later, it will find a way through. More times than not, your best bet is to simply direct it someplace… [+1346 chars]"
+      "content": "Technology is like water. You can try to stop it. You might successfully stall it. But sooner or later, it will find a way through. More times than not, your best bet is to simply direct it someplace… [+1346 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -410,7 +450,8 @@
       "url": "https://www.theverge.com/news/810576/microsoft-windows-11-mixed-reality-link-meta-quest-3-vr",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/windows-multiple-monitors-vr.png?quality=90&strip=all&crop=0,3.4613147178592,100,93.077370564282",
       "publishedAt": "2025-10-30T18:19:40Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nView multiple high-res monitors, or one ultrawidescreen monitor, anywhere you are while wearing a Quest 3 or Quest 3S headset.\r\nView multiple high-res monitors, … [+2864 chars]"
+      "content": "View multiple high-res monitors, or one ultrawidescreen monitor, anywhere you are while wearing a Quest 3 or Quest 3S headset.\r\nView multiple high-res monitors, … [+2864 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": "ars-technica", "name": "Ars Technica" },
@@ -420,7 +461,8 @@
       "url": "https://arstechnica.com/gadgets/2025/10/disney-gets-hdr10-through-over-1000-hulu-titles/",
       "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/fc3d1e70-19cf-4cfa-bb07-bd6439b3df66_1761249301-1152x648-1761844035.jpg",
       "publishedAt": "2025-10-30T17:28:38Z",
-      "content": null
+      "content": null,
+      "category": "business"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -430,7 +472,8 @@
       "url": "https://www.theverge.com/news/810383/amazon-lotr-mmo-embracer-canceled-layoffs",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/90.jpeg?quality=90&strip=all&crop=0,8.2843009449451,100,83.43139811011",
       "publishedAt": "2025-10-30T17:19:38Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe company is halting a significant amount of work on MMOs, and those changes have apparently affected its Lord of the Rings game.\r\nThe company is halting a sig… [+2721 chars]"
+      "content": "The company is halting a significant amount of work on MMOs, and those changes have apparently affected its Lord of the Rings game.\r\nThe company is halting a sig… [+2721 chars]",
+      "category": "business"
     },
     {
       "source": { "id": "ars-technica", "name": "Ars Technica" },
@@ -440,7 +483,8 @@
       "url": "https://arstechnica.com/gadgets/2025/10/google-begins-loosening-developer-restrictions-in-play-store-against-its-will/",
       "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/google-play-store-1152x648.jpg",
       "publishedAt": "2025-10-30T16:19:28Z",
-      "content": null
+      "content": null,
+      "category": "business"
     },
     {
       "source": { "id": null, "name": "Xbox.com" },
@@ -450,7 +494,8 @@
       "url": "https://news.xbox.com/en-us/2025/10/30/free-play-days-10-30-2025/",
       "urlToImage": "https://xboxwire.thesourcemediaassets.com/sites/2/2025/10/FreePlayDays_10-30-2025_1920x1080_6shot-JPG-eb1b28bfb8a34110b859.jpg",
       "publishedAt": "2025-10-30T16:01:41Z",
-      "content": "Editor’s Note (October 31): Yes, Your Grace is no longer part of Free Play Days For All and has been removed from the post.\r\nBefore we leave October, heres a mammoth selection of titles for you try w… [+3907 chars]"
+      "content": "Editor’s Note (October 31): Yes, Your Grace is no longer part of Free Play Days For All and has been removed from the post.\r\nBefore we leave October, heres a mammoth selection of titles for you try w… [+3907 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -460,7 +505,8 @@
       "url": "https://www.theverge.com/column/809883/inside-youtubes-transformation-on-your-tv",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Brittany-Brosky-Show-Static-01-1.png?quality=90&strip=all&crop=0%2C6.9226294357184%2C100%2C93.077370564282&w=1200",
       "publishedAt": "2025-10-30T15:30:00Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nYouTubes TV app is starting to look a lot more like Netflix, further blurring the lines between traditional TV and creator shows.\r\nYouTubes TV app is starting to… [+6493 chars]"
+      "content": "YouTubes TV app is starting to look a lot more like Netflix, further blurring the lines between traditional TV and creator shows.\r\nYouTubes TV app is starting to… [+6493 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "GamesIndustry.biz" },
@@ -470,7 +516,8 @@
       "url": "https://www.gamesindustry.biz/pokemon-tcg-pocket-reaches-13bn-in-first-year-says-appmagic",
       "urlToImage": "https://assetsio.gnwcdn.com/Pokemon_TCG_Pocket_Mega_Rising_Key_Art_Mega_Altaria-(1).jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
       "publishedAt": "2025-10-30T14:36:43Z",
-      "content": "Pokémon Trading Card Game Pocket has generated $1.3 billion in its first year, according to new data.\r\nAs PocketGamer reports, AppMagic estimates suggest that Pokémon TCG is the brand's best performi… [+522 chars]"
+      "content": "Pokémon Trading Card Game Pocket has generated $1.3 billion in its first year, according to new data.\r\nAs PocketGamer reports, AppMagic estimates suggest that Pokémon TCG is the brand's best performi… [+522 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "9to5Toys" },
@@ -480,7 +527,8 @@
       "url": "http://9to5toys.com/2025/10/30/apple-16-inch-24gb-m4-pro-macbook-pro-deal/",
       "urlToImage": "https://i0.wp.com/9to5toys.com/wp-content/uploads/sites/5/2024/10/M4-MacBook-Pro-pre-order-deals.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
       "publishedAt": "2025-10-30T13:13:00Z",
-      "content": "Yesterday we featured a notable open-box deal on the 14-inch M4 Pro MacBook Pro with 24GB of RAM at nearly $600 off the new list price. Thats clearly a serious chance to a huge deal on what is still,… [+2728 chars]"
+      "content": "Yesterday we featured a notable open-box deal on the 14-inch M4 Pro MacBook Pro with 24GB of RAM at nearly $600 off the new list price. Thats clearly a serious chance to a huge deal on what is still,… [+2728 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": "techcrunch", "name": "TechCrunch" },
@@ -490,7 +538,8 @@
       "url": "https://techcrunch.com/2025/10/30/whatsapp-adds-passkey-protection-to-end-to-end-encrypted-backups/",
       "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/10/English_WhatsApp_passkey-encrypted-backups-1.jpeg?resize=1200,675",
       "publishedAt": "2025-10-30T13:00:00Z",
-      "content": "WhatsApp is adding a new way to access your encrypted backups with passkey support. This means if you lose your device, you can use methods like fingerprint, face, or the screen lock code of your pre… [+840 chars]"
+      "content": "WhatsApp is adding a new way to access your encrypted backups with passkey support. This means if you lose your device, you can use methods like fingerprint, face, or the screen lock code of your pre… [+840 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Android Authority" },
@@ -500,7 +549,8 @@
       "url": "https://www.androidauthority.com/oneplus-15-broke-my-heart-3611292/",
       "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2025/10/oneplus-15-renders-all-colors-hero.jpg",
       "publishedAt": "2025-10-30T10:31:04Z",
-      "content": "Im a big fan of OnePlus phones. From the day I got my invite to buy the OnePlus One to happily using the OnePlus 13 for much of 2025, OnePluss Android handsets have really resonated with me over the … [+6874 chars]"
+      "content": "Im a big fan of OnePlus phones. From the day I got my invite to buy the OnePlus One to happily using the OnePlus 13 for much of 2025, OnePluss Android handsets have really resonated with me over the … [+6874 chars]",
+      "category": "technology"
     },
     {
       "source": { "id": null, "name": "Eurogamer.net" },
@@ -510,7 +560,8 @@
       "url": "https://www.eurogamer.net/what-comes-after-the-xbox-series-consoles-well-its-pretty-much-just-a-pc-even-the-microsoft-ceo-has-said-so",
       "urlToImage": null,
       "publishedAt": "2025-10-30T10:15:37Z",
-      "content": null
+      "content": null,
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Rockstarintel.com" },
@@ -520,7 +571,8 @@
       "url": "https://rockstarintel.com/new-gta-online-event-week-halloween-event-oct-23rd-29th-2/",
       "urlToImage": "https://rockstarintel.com/wp-content/uploads/2025/10/8d481c7180905a3eb4c229c0ee1f15f5d8864958-scaled.jpg",
       "publishedAt": "2025-10-30T09:53:46Z",
-      "content": "🔊 Listen to thisIt’s another GTA Online Weekly Update and it is a big one. Rockstar Games begin the conclusion of the Halloween event with several spooky activities. Plus, we have the the usual rota… [+4316 chars]"
+      "content": "🔊 Listen to thisIt’s another GTA Online Weekly Update and it is a big one. Rockstar Games begin the conclusion of the Halloween event with several spooky activities. Plus, we have the the usual rota… [+4316 chars]",
+      "category": "sports"
     },
     {
       "source": { "id": null, "name": "Push Square" },
@@ -528,9 +580,10 @@
       "title": "PS5 Pro Adds Frame Rate Option for Metal Gear Solid Delta - Push Square",
       "description": "New multiplayer mode looks mad",
       "url": "https://www.pushsquare.com/news/2025/10/ps5-pro-adds-frame-rate-option-for-metal-gear-solid-delta",
-      "urlToImage": "https://images.pushsquare.com/98b24ad6f938e/large.jpg",
+      "urlToImage": "https://images.pushsquare.com/reviews/ps5/mortal-kombat-legacy-kollection/1280x720.jpg",
       "publishedAt": "2025-10-30T08:15:00Z",
-      "content": "Man, the new multiplayer mode for Metal Gear Solid Delta: Snake Eater is really scratching our MGO and Assassins Creed Brotherhood itch.\r\nThis all-new online component available as a free update for … [+1481 chars]"
+      "content": "Man, the new multiplayer mode for Metal Gear Solid Delta: Snake Eater is really scratching our MGO and Assassins Creed Brotherhood itch.\r\nThis all-new online component available as a free update for … [+1481 chars]",
+      "category": "sports"
     }
   ]
 }
