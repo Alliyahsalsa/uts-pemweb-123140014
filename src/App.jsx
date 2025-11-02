@@ -1,98 +1,98 @@
+// src/App.jsx (Revisi Logika)
+
 import React, { useState, useEffect } from 'react';
+// Import data JSON lokal
+import newsData from './newsData.json'; // PASTIKAN NAMA FILE JSON BENAR
 import Header from './components/Header';
 import SearchForm from './components/SearchForm';
 import ArticleCard from './components/ArticleCard';
 import Pagination from './components/Pagination';
 import './App.css';
 
-// Konfigurasi API
-const API_KEY = '843278fddec04f52b89907fc44762a08';
+// Hapus API_KEY dan BASE_URL karena kita pakai data lokal
 const PAGE_SIZE = 10; 
+const ALL_ARTICLES = newsData.articles; // Array semua artikel statis
+const TOTAL_STATIC_RESULTS = newsData.totalResults; // Jumlah total data statis
 
 function App() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  
-  // State untuk Filter & Pagination
   const [category, setCategory] = useState('technology'); 
   const [keyword, setKeyword] = useState('');
   const [fromDate, setFromDate] = useState(''); 
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
 
-  // Fungsi Fetch Data Utama
-  const fetchArticles = async () => {
+  // --- FUNGSI BARU: FILTER DATA LOKAL ---
+  const filterLocalArticles = () => {
     setLoading(true);
     setError(null);
-    setArticles([]); 
-    setTotalResults(0); 
 
-    let url = '';
-    let params = new URLSearchParams();
-    params.append('apiKey', API_KEY);
-    params.append('pageSize', PAGE_SIZE);
-    params.append('page', page);
+    // Filter berdasarkan Kategori atau Keyword
+    let filtered = ALL_ARTICLES.filter(article => {
+        let matchesCategory = true;
+        let matchesKeyword = true;
+        let matchesDate = true;
 
-    if (fromDate && !keyword.trim()) {
-        // Jika hanya tanggal yang diisi tanpa keyword
-        setError("Filter tanggal harus disertai dengan Kata Kunci (Keyword) karena batasan API NewsAPI.");
-        setLoading(false);
-        return; // Hentikan panggilan API
-    }
-
-    if (keyword.trim()) { 
-        url = `https://newsapi.org/v2/everything`;
-        params.append('q', keyword.trim());
+        const articleTitle = (article.title || '').toLowerCase();
+        const articleDescription = (article.description || '').toLowerCase();
         
-        if (fromDate) { 
-            params.append('from', fromDate);
+        // 1. Filter Kategori (Jika TIDAK ada keyword, kita anggap filter kategori aktif)
+        if (!keyword.trim() && category) {
+            // Karena data statis, kita tidak tahu kategori aslinya.
+            // Kita bisa mengasumsikan data Anda adalah data "general" atau membuat mapping manual.
+            // Untuk kesederhanaan, kita abaikan filter kategori pada data statis
+            // dan hanya menggunakan filter keyword/pencarian.
+            // JIKA MAU FILTER KATEGORI, Anda harus memiliki properti "category" di setiap objek artikel.
         }
-        params.append('language', 'en'); 
-        
-    } else { // Pencarian Kategori (default)
-        url = `https://newsapi.org/v2/top-headlines`;
-        params.append('category', category || 'general'); 
-        params.append('country', 'us'); 
+
+        // 2. Filter Keyword
+        if (keyword.trim()) {
+            const lowerKeyword = keyword.trim().toLowerCase();
+            matchesKeyword = articleTitle.includes(lowerKeyword) || articleDescription.includes(lowerKeyword);
+        }
+
+        // 3. Filter Tanggal
+        if (fromDate) {
+            // Ambil tanggal artikel (misal: 2025-10-31)
+            const articleDate = article.publishedAt ? article.publishedAt.substring(0, 10) : '';
+            // Pastikan artikel dipublikasikan pada atau setelah tanggal filter
+            matchesDate = articleDate >= fromDate; 
+        }
+
+        return matchesCategory && matchesKeyword && matchesDate;
+    });
+    
+    // Penanganan Error Kustom
+    if (fromDate && !keyword.trim()) {
+        setError("Filter tanggal harus disertai dengan Kata Kunci (Keyword). Silakan masukkan kata kunci.");
+        filtered = [];
+    } else if (filtered.length === 0) {
+        setError("Tidak ditemukan berita yang cocok dengan kriteria pencarian Anda.");
     }
+    
+    // Pagination (Slice Data)
+    const offset = (page - 1) * PAGE_SIZE;
+    const paginatedArticles = filtered.slice(offset, offset + PAGE_SIZE);
 
-    if (!url) {
-        setError("Tidak dapat membuat permintaan API. Coba reset pencarian.");
-        setLoading(false);
-        return;
-    }
-
-    const fullUrl = `${url}?${params.toString()}`;
-
-    try {
-      const response = await fetch(fullUrl);
-      const data = await response.json();
-
-      if (data.status !== 'ok') {
-        throw new Error(`API Error: ${data.message || 'Gagal memuat artikel.'}`);
-      }
-      
-      setArticles(data.articles);
-      setTotalResults(data.totalResults);
-      
-      // Pemberitahuan kustom jika tidak ada hasil
-      if (data.totalResults === 0 && !data.articles.length && (keyword || category)) {
-          const searchParam = keyword ? `kata kunci "${keyword}"` : `kategori "${category}"`;
-          setError(`Tidak ditemukan berita untuk ${searchParam} pada tanggal ${fromDate || 'apapun'}.`);
-      }
-
-    } catch (err) {
-      setError('Gagal memuat artikel: ' + err.message);
-      setArticles([]);
-      setTotalResults(0);
-    } finally {
-      setLoading(false);
-    }
+    setArticles(paginatedArticles);
+    setTotalResults(filtered.length);
+    setLoading(false);
   };
-
+  
+  // Ganti useEffect agar memanggil fungsi filter lokal
   useEffect(() => {
-    fetchArticles();
+    // Memberi sedikit delay agar terasa seperti memuat dari API
+    const timer = setTimeout(() => {
+        filterLocalArticles();
+    }, 500); 
+
+    return () => clearTimeout(timer); // Cleanup
   }, [category, keyword, fromDate, page]); 
+
+  // ... (Sisa handler handleCategoryChange, handleSearchAndFilter, dll. tetap sama) ...
+  // ... (Pastikan handler Anda mereset 'page' ke 1 saat filter berubah) ...
 
   const handleCategoryChange = (newCategory) => {
     setCategory(newCategory);
@@ -113,7 +113,9 @@ function App() {
     window.scrollTo(0, 0); 
   };
 
+
   return (
+    // ... (Kembalikan struktur return Anda seperti sebelumnya) ...
     <div className="App">
       <Header 
         categories={['Technology', 'Business', 'Sports']}
@@ -135,7 +137,7 @@ function App() {
             articles.map((article, index) => (
               <ArticleCard key={index} article={article} /> 
             ))
-          ) : !loading && !error && <p className="status-message">Tidak ada artikel ditemukan. Coba ubah kategori atau kata kunci.</p>}
+          ) : !loading && !error && <p className="status-message">Tidak ada artikel ditemukan. Coba ubah kriteria pencarian.</p>}
         </div>
 
         {articles.length > 0 && totalResults > PAGE_SIZE && (
