@@ -32,13 +32,13 @@ function App() {
     let filtered = ALL_ARTICLES;
     const lowerKeyword = keyword.trim().toLowerCase();
 
-    // 1. Validasi Tanggal Tanpa Keyword
+    // Validasi Tanggal Tanpa Keyword
     if (fromDate && !lowerKeyword) {
         setError("Filter tanggal harus disertai dengan Kata Kunci (Keyword) sesuai skema API.");
         filtered = [];
     } 
     
-    // 2. Filter Berdasarkan Keyword dan Tanggal
+    // Filter Berdasarkan Keyword dan Tanggal
     else if (lowerKeyword || fromDate) {
         
         filtered = ALL_ARTICLES.filter(article => {
@@ -69,7 +69,7 @@ function App() {
         
     } 
     
-    // 3. Filter KATEGORI
+    // Filter KATEGORI
     else {
         // Logika utama perbaikan kategori ada di sini:
         const lowerCategory = category.toLowerCase();
