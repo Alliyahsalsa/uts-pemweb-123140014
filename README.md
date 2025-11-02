@@ -1,4 +1,4 @@
-# Pengembangan Aplikasi Web - News Portal (UTS)
+# Pengembangan Aplikasi Web - News Portal
 
 ## 1. Tentang Saya
 
